@@ -1,0 +1,10 @@
+.content {
+  margin: 0 auto;
+  height: 100%;
+  width: 1900px;
+}
+
+header {
+  min-height: 100px;
+  background-color: blue;
+}
