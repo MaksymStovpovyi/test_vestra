@@ -271,3 +271,43 @@ header {
 .product-item:hover .item-learn-more {
   display: flex;
 }
+
+/* Welcome */
+
+.welcome {
+  margin-top: 50px;
+  min-height: 630px;
+  background-color: rgb(230, 255, 230);
+  border-bottom: 1px solid green;
+}
+
+.welcome-wrapper {
+  display: flex;
+  padding-top: 65px;
+}
+
+.welcome-left {
+  max-width: 720px;
+  margin-right: 150px;
+}
+
+.welcome-left h2 {
+  font-size: 62px;
+}
+
+.welcome-left h2:after {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  margin-left: 5px;
+  background-color: green;
+}
+
+.welcome-left-p p {
+  margin-top: 30px;
+}
+
+.welcome-right img {
+  border-radius: 15px;
+}
