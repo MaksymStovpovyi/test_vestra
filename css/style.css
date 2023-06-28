@@ -311,3 +311,101 @@ header {
 .welcome-right img {
   border-radius: 15px;
 }
+
+/* footer */
+
+footer {
+  margin-top: 60px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  min-height: 340px;
+}
+
+.footer-top h3 {
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-top-links {
+  display: flex;
+}
+
+.footer-top-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-top-links li{
+  margin-bottom: 10px;
+}
+
+.footer-top-titile-link {
+  float: top;
+  margin-right: 15px;
+}
+
+.second-prod-links {
+  margin-left: 35px;
+}
+
+.top-sub h4{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.top-sub p {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.top-sub-email {
+  margin-top: 10px;
+}
+
+.top-sub form {
+  margin-top: 10px;
+}
+
+.top-sub form input {
+  height: 50px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border: 1px solid green;
+}
+
+.top-sub form button {
+  height: 50px;
+  width: 80px;
+  border: none;
+  background-color:green;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.footer-bottom {
+  min-height: 50px;
+  background-color: black;
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+}
+
+.all-rights, .vestra {
+  color: white;
+  font-size: 14px;
+}
+
+.social-icos img {
+  margin: 0 15px;
+}
