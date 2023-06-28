@@ -4,7 +4,77 @@
   width: 1900px;
 }
 
+/* header */
+
 header {
-  min-height: 100px;
-  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+.header-right {
+  min-height: 150px;
+  width: 1145px;
+}
+
+.header-right-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 63px;
+  width: 100%;
+  border-bottom: 2px solid #bbbbbb;
+}
+
+.phone-city {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.phone-num {
+  font-size: 20px;
+}
+
+.header-right-top-links {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.header-right-top-links img {
+  margin-right: 10px;
+}
+
+.header-right-top-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-right-top-links:last-child {
+  margin-right: 25px;
+}
+
+.header-right-nav {
+  height: 85px;
+}
+
+.header-right-nav ul {
+  display: flex;
+  height: 100%;
+  align-items:center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.header-right-nav ul:last-child {
+  margin-right: 25px;
+}
+
+.header-right-nav a {
+  text-decoration: none;
+  color: black;
 }
