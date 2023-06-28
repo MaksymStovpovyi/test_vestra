@@ -1,7 +1,7 @@
-.content {
-  margin: 0 auto;
+.container {
   height: 100%;
-  width: 1900px;
+  width: 1640px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -9,15 +9,19 @@
 header {
   display: flex;
   justify-content: space-between;
-  min-height: 150px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
 }
 
 .header-logo img {
-  height: 100%;
+  width: 100%;
 }
 
 .header-right {
-  min-height: 150px;
   width: 1145px;
 }
 
@@ -67,7 +71,7 @@ header {
   height: 100%;
   align-items:center;
   justify-content: space-between;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .header-right-nav ul:last-child {
