@@ -1,9 +1,5 @@
 /* media */
 
-@media screen and (max-width: 1669px) {
-
-}
-
 /* 1200 */
 @media screen and (max-width: 1200px) {
 
@@ -22,6 +18,11 @@
 
   .header-right-nav ul {
     font-size: 14px;
+  }
+
+  /* slider */
+  .slider {
+    display: none;
   }
 }
 
