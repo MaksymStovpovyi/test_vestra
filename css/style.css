@@ -1,5 +1,4 @@
 .container {
-  height: 100%;
   width: 1640px;
   margin: 0 auto;
 }
@@ -82,3 +81,19 @@ header {
   text-decoration: none;
   color: black;
 }
+
+/* slider */
+
+.slider {
+  display: flex;
+  min-height: 600px;
+  justify-content: space-between;
+}
+
+.slider-right img  {
+  position: relative;
+  left: 132px;
+  height: 600px;
+}
+
+
