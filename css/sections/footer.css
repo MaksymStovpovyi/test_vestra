@@ -96,8 +96,20 @@ footer {
   margin: 0 15px;
 }
 
+/* MEDIA  */
+
+/* 1640 */
+@media (max-width: 1639.98px) {
+
+}
+
 /* 1200 */
 @media (max-width: 1200px) {
+
+}
+
+/* 992 */
+@media (max-width: 991.98px) { 
 
 }
 
@@ -109,5 +121,9 @@ footer {
 /* 576 */
 @media (max-width: 576px) {
 
+}
+
+/* 480 */
+@media (max-width: 479.98px) {
 
 }

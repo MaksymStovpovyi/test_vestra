@@ -2,14 +2,14 @@
 
 .welcome {
   margin-top: 50px;
-  min-height: 630px;
-  background-color: rgb(230, 255, 230);
+  background-color: #eff5f9;
   border-bottom: 1px solid green;
 }
 
 .welcome-wrapper {
   display: flex;
   padding-top: 65px;
+  height: 630px;
 }
 
 .welcome-left {
@@ -36,20 +36,146 @@
 
 .welcome-right img {
   border-radius: 15px;
+  box-shadow: 0px 0px 20px 5px rgba(212, 231, 213, .5);
+}
+
+.welcome-right {
+  z-index: 1;
+}
+
+.welcome-right-box-bottom {
+  position: relative;
+  z-index: -1;
+  top: -105px;
+  left: -25px;
+  height: 125px;
+  width: 177px;
+  background-color: #d4e7d5;
+  border-radius: 15px;
+}
+
+.welcome-right-box-top {
+  position: relative;
+  z-index: -1;
+  top: -610px;
+  left: 435px;
+  height: 125px;
+  width: 177px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 15px;
+}
+
+/* MEDIA */
+
+/* 1640 */
+@media (max-width: 1639.98px) {
+
+  .welcome-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 550px;
+  }
+
+  .welcome-left {
+    max-width: 100%;
+    margin-right: 50px;
+  }
+
 }
 
 /* 1200 */
 @media (max-width: 1200px) {
+
+  .welcome-left h2 {
+    font-size: 32px;
+  }
+
+  .welcome-left-p p {
+    margin-top: 25px;
+  }
+
+}
+
+/* 992 */
+@media (max-width: 991.98px) { 
+
+  .welcome-wrapper {
+    flex-wrap: wrap;
+    height: 900px;
+  }
+
+  .welcome-left {
+    margin: 0 auto;
+  }
+  .welcome-right {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 370px;
+  }
 
 }
 
 /* 768 */
 @media (max-width: 768px) {
 
+  .welcome-right-box-bottom, .welcome-right-box-top {
+    display: none;
+  }
+
+  .welcome-left {
+    height: 250px;
+  }
+
+  .welcome-right {
+    margin: 0 auto;
+
+  }
+
+  .welcome-right img {
+    height: 370px;
+  }
+
 }
 
 /* 576 */
 @media (max-width: 576px) {
 
+  .welcome-right img {
+    height: 270px;
+  }
+
+  .welcome-wrapper {
+    height: 788px;
+  }
+
+  .welcome-left {
+    height: 420px;
+  }
+
+}
+
+/* 480 */
+@media (max-width: 479.98px) {
+
+  .welcome-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .welcome-left h2 {
+    font-size: 24px;
+  }
+
+  .welcome-right img {
+    height: 170px;
+  }
+
+  .welcome-left {
+    height: 515px;
+  }
+
+  .welcome-right {
+    height: 275px;
+  }
 
 }
