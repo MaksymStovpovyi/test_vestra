@@ -83,7 +83,7 @@
 }
 
 /* 1200 */
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) {
 
   .products .container {
     padding: 0 25px;
@@ -109,7 +109,7 @@
 }
 
 /* 768 */
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
   .products-title p {
     width: 350px;
@@ -118,7 +118,7 @@
 }
 
 /* 576 */
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
 
   .products-title h2 {
     font-size: 22px;

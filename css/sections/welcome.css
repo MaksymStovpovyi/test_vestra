@@ -84,7 +84,7 @@
 }
 
 /* 1200 */
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) {
 
   .welcome-left h2 {
     font-size: 32px;
@@ -106,6 +106,7 @@
 
   .welcome-left {
     margin: 0 auto;
+    height: 110px;
   }
   .welcome-right {
     margin: 0 auto;
@@ -116,7 +117,7 @@
 }
 
 /* 768 */
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
   .welcome-right-box-bottom, .welcome-right-box-top {
     display: none;
@@ -138,7 +139,7 @@
 }
 
 /* 576 */
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
 
   .welcome-right img {
     height: 270px;
